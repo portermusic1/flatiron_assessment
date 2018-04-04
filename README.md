@@ -210,8 +210,8 @@ The admin is interested in looking to see the relationship between students in t
 For this, we'll need the __SET DIFFERENCE__ operation, which given two sets A and B, returns a set that contains elements from set A or B, but not both.
 
 ```
-one_course_or_the_other  = data_science.symmetric_difference(serious_stem) # the symmetric difference
-one_course_or_the_other  = data_science ^ serious_stem # using the '^' character to represent the symmetric difference
+one_course_or_the_other  = data_science.symmetric_difference(advanced_stem) # the symmetric difference
+one_course_or_the_other  = data_science ^ advanced_stem # using the '^' character to represent the symmetric difference
 
 >>> print one_course_or_the_other
 Set(['Collin', 'Manny', 'Sharmaine', 'Tammy'])
